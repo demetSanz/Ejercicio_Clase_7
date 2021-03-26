@@ -10,6 +10,6 @@ function saludar (nombre, apellido, callback){
 function despedir (nombre, apellido, callback){
     return "Chau, " + callback(nombre, apellido);    
 }
-console.log(saludar("Juan", "Gomez", unirNombres));
+console.log(saludar("Juan Pedro", "Gomez", unirNombres));
 
-console.log(despedir("Maria", "Gimenez", unirNombres));
+console.log(despedir("Maria Luisa", "Gimenez", unirNombres));
